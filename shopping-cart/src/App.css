@@ -1,0 +1,146 @@
+.header{
+	text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    height: 60px !important;
+    padding: 5px;
+    background-color: #f4f8fd;
+}
+
+.card-body{
+	width: 100%;
+}
+
+.section{
+	margin: 2%;
+	margin-top: 80px;
+}
+
+.card{
+	/* width: 18rem; */
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 35px 0 rgb(145 158 190 / 16%);
+	border: 1px solid rgb(155 155 155 / 13%);
+}
+
+.btn-secondary{
+	align-items: center;
+    border: 0 solid #323232;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: #323232 !important;
+	margin-top: -40px;
+}
+
+.card-text{
+    min-width: 0;
+    margin-bottom: 15px;
+    color: #616c80;
+}
+
+.cart-img {
+	height: 15vw;
+    object-fit: cover;
+}
+
+.ellipsis{
+	display: -webkit-box;
+    max-width: 200px;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.sidepanel{
+	height: calc(100vh - 150px);;
+	width: 24%;
+	background-color: #f4f8fd;
+	position: fixed;
+	overflow-y: scroll;
+}
+
+.sidepanel-section{
+	z-index: 999;
+
+}
+
+.sidepanel-section .heading {
+	text-align: center;
+	padding: 2%;
+}	
+
+.sidepanel .card-header{
+	width: 100%;
+}
+
+.padding-2{
+	padding: 2%;
+}
+
+.text-centre{
+	text-align: center;
+}
+
+.font-14{
+	font-size: 15px !important;
+}
+
+.btn-primary{
+	background-color: #76a9ff;
+	align-items: center;
+    border-radius: 4px;
+	color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.width-100{
+	width: 100%;
+}
+
+.fixed-btn{
+	position: fixed;
+    bottom: 15px;
+	width: 24%;
+	
+}
+
+.sidepanel .card-text{
+	margin-bottom: 5px;
+}
+
+.float-rt{
+	float: right;
+}
+
+.input{
+	display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.err-msg{
+	color: rgb(164, 0, 0)
+}
+
+.fixed{
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+}
